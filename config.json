@@ -1,0 +1,17 @@
+{
+    "start_url": "https://dealsonwheels.lt/isigykite-naudota-automobili-internetu/",
+    "base_url": "https://dealsonwheels.lt/isigykite-naudota-automobili-internetu/page/{}/",
+    "pages": 6,
+    "wait_seconds": 1,
+    "output_file": "DOW_adverts.json",
+    "log_file": "main.log",
+    "selectors": {
+        "adverts": "wf-cell",
+        "title": "h4",
+        "link": "a",
+        "image": "img",
+        "price": "woocommerce-Price-amount",
+        "details": "h2",
+        "contacts": "has-text-align-center"
+    }
+}
